@@ -53,6 +53,7 @@ h1, h2 {
     left:0px;
     top:0px;
     z-index:-1;
+    background-attachment:scroll;
 }
 
 /* main info */
@@ -99,4 +100,17 @@ h1, h2 {
     width: 500px;
 }   
 
+
+/* flight times */
+
+
+#times div {
+    background-image: url(../images/plain-black-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    
+}
 
