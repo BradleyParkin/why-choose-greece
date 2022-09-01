@@ -9,7 +9,7 @@
 body {
     font-family: PT Sans Narrow, sans-serif;
     font-weight: 300;
-    color: #2f4f4f;
+    color: white;
 }
 
 /* title design */
@@ -18,12 +18,14 @@ h1, h2 {
     font-family: Cairo, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: #2f4f4f;
+    color: white;
+    
 }
 
 #title {
     text-align: center;
     font-size: 300%;
+    
 }
 
 /* site navigation */
@@ -35,10 +37,22 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
-    color: #2f4f4f;
+    color: white;
 }
 
 #menu a:hover {
-    border-bottom: 3px dotted #2f4f4f;
+    border-bottom: 3px dotted white;
+}
+
+/* bg-image */
+
+#bg-image {
+    height: 1000px;
+    width: 100%;
+    background-image: url(../images/pexels-asli-aker-5224642.jpg);
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
 }
 
