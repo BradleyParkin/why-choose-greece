@@ -12,14 +12,33 @@ body {
     color: #2f4f4f;
 }
 
+/* title design */
+
 h1, h2 {
     font-family: Cairo, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: black;
+    color: #2f4f4f;
 }
 
 #title {
     text-align: center;
     font-size: 300%;
 }
+
+/* site navigation */
+
+#menu {
+    font-size: 125%;
+    text-align: center;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #2f4f4f;
+}
+
+#menu a:hover {
+    border-bottom: 3px dotted #2f4f4f;
+}
+
