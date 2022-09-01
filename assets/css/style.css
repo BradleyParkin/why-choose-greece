@@ -9,4 +9,17 @@
 body {
     font-family: PT Sans Narrow, sans-serif;
     font-weight: 300;
+    color: #2f4f4f;
+}
+
+h1, h2 {
+    font-family: Cairo, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: black;
+}
+
+#title {
+    text-align: center;
+    font-size: 300%;
 }
