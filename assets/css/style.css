@@ -134,3 +134,19 @@ footer {
     padding: 5%;
     color: blue; 
 }
+
+/* Gallery */
+
+#gallery-of-greece {
+    text-align: center;
+}
+
+.carousel {
+    padding: 1rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 8px;
+    max-width: 900px;
+    width: 85vw;
+    margin: auto;
+}
