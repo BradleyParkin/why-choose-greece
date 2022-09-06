@@ -64,42 +64,6 @@ h1, h2 {
     text-align: center;
 }
 
-#left-info {
-    padding-top: 30px;
-    width: 33%;
-    margin: 20px;
-    float: left;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
-    height: 350px;
-    width: 500px;
-}
-
-#right-info {
-    padding-top: 30px;
-    width: 33%;
-    margin: 20px;
-    float: right; 
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
-    height: 350px;
-    width: 500px;  
-}
-
-
-#middle-info {
-    width: 33%;
-    padding-top: 33px;
-    margin: 0 auto;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
-    height: 350px;
-    width: 500px;
-}   
-
 /* footer */
 
 footer {
@@ -115,9 +79,9 @@ footer {
 }
 
 .social i {
-    font-size: 200%;
+    font-size: 175%;
     margin: 1%;
-    padding: 5%;
+    padding: 10%;
     color: white; 
 }
 
@@ -146,4 +110,32 @@ footer {
 .images-container img {
     height: 500px;
     width: 750px;
+}
+
+/* Media queries */
+
+/* For larger to medium screen size from 1280px wide and down */
+@media screen and (max-width: 1980px) {
+    #all-about-greece {
+        width: 65%;
+        height: 1980px;
+        margin: 0 auto;
+    }
+
+    #left-info, #right-info {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #middle-info {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
 }
