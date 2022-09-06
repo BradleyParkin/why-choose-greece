@@ -150,3 +150,14 @@ footer {
     width: 85vw;
     margin: auto;
 }
+
+.images-container {
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+}
+
+.images-container img {
+    height: 500px;
+    width: 500px;
+}
