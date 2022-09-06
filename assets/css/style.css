@@ -53,7 +53,7 @@ h1, h2 {
     left:0px;
     top:0px;
     z-index:-1;
-    background-attachment:scroll;
+    background-attachment: fixed;
 }
 
 /* main info */
@@ -66,9 +66,11 @@ h1, h2 {
 
 /* footer */
 
-footer {
-    height: 150px;
+.footer {
+    height: 100px; 
+    
 }
+
 
 .social {
     text-align: center;
@@ -110,32 +112,4 @@ footer {
 .images-container img {
     height: 500px;
     width: 750px;
-}
-
-/* Media queries */
-
-/* For larger to medium screen size from 1280px wide and down */
-@media screen and (max-width: 1980px) {
-    #all-about-greece {
-        width: 65%;
-        height: 1980px;
-        margin: 0 auto;
-    }
-
-    #left-info, #right-info {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #middle-info {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
-    }
 }
