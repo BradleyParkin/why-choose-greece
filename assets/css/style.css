@@ -24,7 +24,8 @@ h1, h2 {
 
 #title {
     text-align: center;
-    font-size: 300%;    
+    font-size: 300%; 
+    text-decoration: underline solid 5px white;   
 }
 
 /* site navigation */
@@ -64,16 +65,21 @@ h1, h2 {
     text-align: center;
 }
 
-/* footer */
-
-.footer {
-    height: 100px; 
-    
+.main-title {
+    text-decoration: underline solid 3px white;  
+    padding: 3px;
 }
 
+/* footer */
+
+footer {
+    height: 150px;
+    width: 100%;   
+}
 
 .social {
     text-align: center;
+    position: fixed;
 }
 
 .social > li {
@@ -81,10 +87,18 @@ h1, h2 {
 }
 
 .social i {
-    font-size: 175%;
-    margin: 1%;
-    padding: 10%;
+    font-size: 150%;
+    margin-top: 5%;
+    padding: 5%;
     color: white; 
+}
+
+.social {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }
 
 /* Gallery */
@@ -110,6 +124,6 @@ h1, h2 {
 }
 
 .images-container img {
-    height: 500px;
+    height: 450px;
     width: 750px;
 }
