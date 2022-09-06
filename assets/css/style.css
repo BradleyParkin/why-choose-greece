@@ -114,3 +114,23 @@ h1, h2 {
 
 }
 
+/* footer */
+
+footer {
+    height: 100px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social > li {
+    display: inline;
+}
+
+.social i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: blue; 
+}
