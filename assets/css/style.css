@@ -47,13 +47,9 @@ h1, h2 {
 /* bg-image */
 
 #bg-image {
-    height: 1280px;
     width: 100%;
     background-image: url(../images/pexels-asli-aker-5224642.jpg);
     position:absolute;
-    left:0px;
-    top:0px;
-    z-index:-1;
     background-attachment: fixed;
 }
 
@@ -74,12 +70,12 @@ h1, h2 {
 
 footer {
     height: 150px;
-    width: 100%;   
+    width: 100%; 
 }
 
 .social {
     text-align: center;
-    position: fixed;
+    
 }
 
 .social > li {
