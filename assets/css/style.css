@@ -66,6 +66,14 @@ h1, h2 {
     padding: 3px;
 }
 
+#all-about-greece {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 150px;
+    padding-right: 150px;
+    
+    
+}
+
 /* footer */
 
 footer {
