@@ -137,12 +137,19 @@ footer {
     #all-about-greece {
         height: auto;
     }
+
+    #reg {
+        height: auto;
+    }
 }  
+
+
 
 /* Form */
 
 #form {
     text-align: center;
+    padding-top: 100px;
 }
 
 input[type=text] {
