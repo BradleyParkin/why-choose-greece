@@ -46,6 +46,8 @@ h1, h2 {
 
 /* bg-image */
 
+/* https://stackoverflow.com/questions/1093955/make-the-image-go-behind-the-text-and-keep-it-in-center-using-css - Used this to get the background image behind all text */
+
 #bg-image {
     width: 100%;
     background-image: url(../images/pexels-asli-aker-5224642.jpg);
@@ -110,6 +112,8 @@ footer {
     text-align: center;
 }
 
+/* https://www.youtube.com/watch?v=IESoUbWJF48 - used part of code from this youtube tutorial to make the images on "Gallery" scroll on a page. */
+
 .carousel {
     padding: 1rem;
     background-color: white;
@@ -146,6 +150,8 @@ footer {
 
 
 /* Form */
+
+/* https://www.w3schools.com/css/css_form.asp - used part of this design for buttons for form from this link, also used part of this link to create border on names and email address. */
 
 #form {
     text-align: center;
