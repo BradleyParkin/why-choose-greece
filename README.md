@@ -58,3 +58,42 @@ Users of this website will be able to find information about the best places to 
 
 * I have confirmed the form works, requires and entry in every field, and will only accept an email in the email field and the submit button works.
 
+# Bugs
+* No Bugs
+
+# Validator Testing
+* **HTML**
+    * No errors were found when passing through the official W3C validator
+* **CSS**
+    * No erros were found when passing through the official Jigsaw validator
+* **Accessibility**
+    * I can confirm that the colors and fonts chosen are easy to read and accessible by running it throug the lighthouse in devtools on Google Chrome.       
+![accessibility](/assets/images/accessibility.png)
+
+# Unfixed bugs
+No unfixed bugs.
+
+# Deployment
+
+* The site was deployed to GitHub pages. The steps to deploy the site are:
+    * In the GitHub repository, go to the Settings tab
+    * From the source section drop down menu, select Main Branch
+    * Once the main branch has been selected, the page will provide the link to the completed website.
+
+The live link can be found here [Why Choose Greece](https://bradleyparkin.github.io/why-choose-greece/)   
+
+# Credits
+
+Content
+
+* The code to create the structre of the website, basic CSS design and social media buttons was taken from [CI Love Running Project](https://github.com/BradleyParkin/love-running)
+* The code to create the sliding gallery was taken from this youtube video [Gallery Sliding Images](https://www.youtube.com/watch?v=IESoUbWJF48)
+* The code to create the design of the buttons on the register your interest was taken from [W3schools](https://www.w3schools.com/css/css_form.asp)
+* The code to get the background to be behind all text and center was from [Stack Over Flow](https://stackoverflow.com/questions/1093955/make-the-image-go-behind-the-text-and-keep-it-in-center-using-css)
+* The CSS code for a media query was used from the help of a tutor session with a CI tutor.
+
+Media
+
+* All images used in this website was taken from [Pixels](https://www.pexels.com/)
+* Icons used where taken from [Font Awesome](https://fontawesome.com/icons)
+* Fonts used where taken from [Google Fonts](https://fonts.google.com/)

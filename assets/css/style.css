@@ -145,6 +145,7 @@ footer {
     #reg {
         height: auto;
     }
+    
 }  
 
 
@@ -159,10 +160,6 @@ footer {
 }
 
 input[type=text] {
-    width: 10%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
     border-left: 2px solid black;
@@ -170,10 +167,6 @@ input[type=text] {
 }
 
 input[type=email] {
-    width: 10%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
     border-left: 2px solid black;
